@@ -7,12 +7,12 @@
 Summary:
 
 - SQL GUID sorting
-  - 0f = most significant byte
-  - 00 = least significant byte
+  - `0f` = most significant byte
+  - `00` = least significant byte
   - `00010203-0405-0607-0908-0f0e0d0c0b0a`
 - Windows GUID sorting
-  - 0f = most significant byte
-  - 00 = least significant byte
+  - `0f` = most significant byte
+  - `00` = least significant byte
   - `0f0e0d0c-0b0a-0908-0706-050403020100`
 
 **!!!But be careful, this has nothing to do with the order in which the bytes are saved in an array (for example when you do `guid.ToByteArray()`)!!!**
